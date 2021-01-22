@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#wrap {width:100%;}
+#wrap #main {width:100%;max-width:1140px;margin:0 auto;}
+#wrap #main .main-title {margin:162px auto 50px auto;width:100%;}
+#wrap #main .main-title h2 {font-size:38px;color:#222;font-weight:600;text-decoration:underline #ffdf00;}
+#wrap #main .search-wrap {width:100%;height:44px;}
+#wrap #main .search-wrap div {float:right;background:#f6f6f6;width:244px;height:44px;border-radius:30px;padding:1px 2px;}
+#wrap #main .search-wrap div .gap {float:left;margin:9px 0 0 25px;background:transparent;}
+#wrap #main .search-wrap div .gap input {float:left;background:transparent;display:block;width:165px;height:24px;color:#555;}
+#wrap #main .search-wrap div .gap input::placeholder {color:#ccc;font-size:16px;font-weight:400;}
+#wrap #main .search-wrap div .gap span {float:left;display:block;width:20px;height:20px;margin-top:2px;}
+#wrap #main .search-wrap div .gap span img {display:inline-block;width:100%;}
+
+#wrap #main #table {width:100%;margin:40px 0;}
+#wrap #main #table tr {width:100%;height:90px;box-sizing:border-box;font-size:16px;font-weight:500;}
+#wrap #main #table tr th {font-weight:600;font-size:18px;}
+#wrap #main #table tr:first-child td {border-top:1px solid #ffdf00;}
+#wrap #main #table tr td {font-size:16px;color:#888;border-bottom:1px solid #ddd;}
+#wrap #main #table tr td:nth-child(1) {width:10%;text-align:center;}
+#wrap #main #table tr td:nth-child(2) {width:70%;}
+#wrap #main #table tr td:nth-child(3) {width:20%;text-align:center;}
+#wrap #main #table tr td a {font-size:16px;font-weight:400;letter-spacing:-1px;}
+#wrap #main #table tr td a:hover {font-weight:bold;}
+
+
+
+#wrap #main .page-wrap {width:100%;}
+#wrap #main .page-wrap .page-gap {margin:80px auto;width:25%;text-align:center;}
+#wrap #main .page-wrap .page-gap > div {float:left;width:20px;height:20px;overflow:hidden;margin-top:-1px;padding-right:10px;}
+#wrap #main .page-wrap .page-gap > div > a {display:inline-block;width:100%;}
+#wrap #main .page-wrap .page-gap > div > a > img {width:140%;margin-left:10px;}
+#wrap #main .page-wrap .page-gap > div:last-child {float:left;width:20px;height:20px;overflow:hidden;margin:-22px 0 0 200px;transition:all .3s;}
+#wrap #main .page-wrap .page-gap > div:last-child > a > img {width:140%;margin-left:-10px;}
+#wrap #main .page-wrap .page-gap ul {width:200px;margin:0 auto;text-align:center;}
+#wrap #main .page-wrap .page-gap ul > li {float:left;width:20px;height:20px;padding:0 5px;}
+#wrap #main .page-wrap .page-gap ul > li > a {display:block;color:#999;font-size:16px;}
+#wrap #main .page-wrap .page-gap ul > li > a.addpageBtn {color:#000;text-decoration:underline;font-weight:600;}

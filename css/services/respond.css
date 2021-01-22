@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+@media all and (min-width:1024px) and (max-width:1600px){
+    /* section2 */
+    #wrap #main #section1 .title {bottom:50px;}
+
+    #wrap #main #section2 .s2-wrap > ul {width:100%;}
+    #wrap #main #section2 .s2-wrap > ul > li {width:10.1%;}
+
+
+    /* section3 */
+    #wrap #main div .section3 .s3-wrap .gap .text-wrap {float:left;width:33%;margin:80px 2% 0 15%;}
+    #wrap #main div .section3 .s3-wrap .gap .video-wrap {max-width:470px;}
+
+    #wrap #main div .section4 .s4-wrap {max-width:1140px;}
+    /* section5 */
+    #wrap #main div .section5 .s5-wrap .left {float:left;width:50%;height:100%;display:block;}
+    #wrap #main div .section5 .s5-wrap .left .gap {margin:100px 0% 100px 28%;}
+    #wrap #main div .section5 .s5-wrap .right {float:right;width:500px;}
+    #wrap #main div .section5 .s5-wrap .left .gap .text-box {padding:50px 0 30px 0;}
+    #wrap #main .investment-wrap .section5 .s5-wrap .right {margin:13% auto;}
+    #wrap #main .sendmoney-wrap .section5 .s5-wrap .right {margin:20% auto;}
+    #wrap #main .bill-wrap .section5 .s5-wrap .left .gap .text-box {padding:30px 0 20px 0;width:100%;margin:none;}
+
+   /* secton6 */
+   #wrap #main div .section6 .s6-wrap h3 {text-align:none;width:none;margin-bottom:none;}
+   #wrap #main div .section6 .s6-wrap > span {float:right;margin:none;}
+
+}
+
+@media all and (max-width:990px){
+    /* section2 */
+    #wrap #main #section2 .s2-wrap > ul {width:80%;margin:0 auto;}
+    #wrap #main #section2 .s2-wrap > ul > li {width:20%;}
+    /* section3 */
+    #wrap #main div .section3 .s3-wrap .gap .video-wrap {max-width:300px;margin-top:30px;}
+    #wrap #main div .section4 .s4-wrap {width:100%;max-width:80%;}
+    #wrap #main .bill-wrap .section5 .s5-wrap .left .gap .text-box {padding:30px 0 20px 0;width:80%;margin:0 auto;}
+    #wrap #main div .section5 .s5-wrap .right {float:left;width:342px;}
+
+
+}
+
+@media all and (max-width:900px){
+    /* section5 */
+    #wrap #main div .section5 .s5-wrap .left {float:none;width:100%;height:50%;display:block;text-align:center;}
+    #wrap #main div .section5 .s5-wrap .left .gap {margin:20px auto;}
+    #wrap #main div .section5 .s5-wrap .right {float:none;width:342px;margin:0 auto;text-align:center;}
+    #wrap #main .sendmoney-wrap .section5 .s5-wrap .right {margin:10% auto;}
+    #wrap #main .sendmoney-wrap .section5 .s5-wrap .right {margin:10% auto;}
+
+
+
+}
+@media all and (max-width:600px){
+    /* section2 */
+    #wrap #main #section1 .title {bottom:0px;}
+    #wrap #main #section2 .s2-wrap > ul {width:50%;margin:0 auto;}
+    #wrap #main #section2 .s2-wrap > ul > li {width:40%;max-width:none;}
+
+    /* section3 */
+    #wrap #main div .section3 .s3-wrap .gap .text-wrap {float:none;width:100%;margin:0 auto;text-align:center;}
+    #wrap #main div .section3 .s3-wrap .gap .video-wrap {width:100%;text-align:center;float:none;}
+    /* section5 */
+    #wrap #main div .section5 .s5-wrap .left {width:60%;margin:0 auto;}
+    #wrap #main div .section5 .s5-wrap .left .gap .text-box {padding:50px 0 50px 0;}
+    #wrap #main .sendmoney-wrap .section5 .s5-wrap .left .gap .text-box {padding:50px 0 50px 0;}
+
+    /* secton6 */
+    #wrap #main div .section6 .s6-wrap h3 {text-align:center;width:100%;margin-bottom:50px;}
+    #wrap #main div .section6 .s6-wrap > span {float:none;display:block;width:200px;margin:0 auto;}
+
+}

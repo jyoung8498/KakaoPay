@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+#wrap #main {margin-top:73px;width:100%;}
+
+/* section1 */
+#wrap #main #section1 {position:relative;width:100%;height:300px;}
+#wrap #main #section1 ul {width:100%;position:relative;}
+#wrap #main #section1 ul > li {width:100%;z-index:2;position:absolute;top:0;left:0;opacity:0;transition:all .6s;}
+#wrap #main #section1 ul > li.addImgShow {opacity:1;z-index:3;}
+#wrap #main #section1 ul > li > img {width:100%;height:300px;background-size:100% 100%;}
+#wrap #main #section1 .title {z-index:3;position:absolute;bottom:50px;left:0;width:100%;height:50px;transition:all .3s;}
+#wrap #main #section1 .title .s1-wrap {width:100%;max-width:1140px;margin:0 auto;}
+#wrap #main #section1 .title .s1-wrap .title-wrap {width:100%;display:none;}
+#wrap #main #section1 .title .s1-wrap .title-wrap.addtchanges {display:block;}
+#wrap #main #section1 .title .s1-wrap .title-wrap > h2 {font-weight:600;color:#fff;font-size:38px;letter-spacing:-1px;padding-bottom:18px;width:100%;display:block;}
+#wrap #main #section1 .title .s1-wrap .title-wrap > h3 {color:#fff;font-weight:400;letter-spacing:-1px;font-size:23px;width:100%;display:block;}
+
+/* section2 */
+#wrap #main #section2 {width:100%;}
+#wrap #main #section2 .s2-wrap {width:100%;max-width:1140px;margin:0 auto;}
+#wrap #main #section2 .s2-wrap > ul {width:100%;}
+#wrap #main #section2 .s2-wrap > ul > li {float:left;display:block;height:49px;width:10.1%;padding:30px 0 0 10px;box-sizing:content-box;border-bottom:1px solid #ccc;transition:all .3s;}
+#wrap #main #section2 .s2-wrap > ul > li.addPageBtn {border-bottom:1px solid #000;}
+#wrap #main #section2 .s2-wrap > ul > li a {display:inline-block;width:100%;height:100%;font-size:16px;font-weight:400;text-align:center;color:#888;transition:all .3s;}
+#wrap #main #section2 .s2-wrap > ul > li a:hover {color:#000;font-weight:bold;}
+#wrap #main #section2 .s2-wrap > ul > li.addPageBtn a {color:#000;font-weight:bold;}
+
+/* changes */
+#wrap #main .content-wrap {display:none;}
+#wrap #main .content-wrap.addchanges {display:block;}
+
+
+/* section3 */
+#wrap #main div .section3 {width:100%;height:auto;overflow:hidden;}
+#wrap #main div .section3 .s3-wrap {width:100%;max-width:1140px;margin:0 auto;}
+#wrap #main div .section3 .s3-wrap .gap {margin-top:20px;}
+#wrap #main div .section3 .s3-wrap .gap .text-wrap {float:left;width:33%;margin:80px 2% 0 15%;}
+#wrap #main div .section3 .s3-wrap .gap .text-wrap > h4 {color:#000;font-size:40px;font-weight:700;letter-spacing:-1px;margin-bottom:30px;}
+#wrap #main div .section3 .s3-wrap .gap .text-wrap > h5 {color:#555;line-height:29px;font-size:18px;font-weight:400;letter-spacing:-1px;}
+#wrap #main div .section3 .s3-wrap .gap .text-wrap > p {margin-top:50px;font-weight:400;font-size:16px;letter-spacing:-.5px;line-height:29px;color:#555;}
+#wrap #main div .section3 .s3-wrap .gap .text-wrap > span {margin-top:10px;display:none;border:1px solid #222;width:100px;border-radius:50px;padding:5px 10px;}
+#wrap #main div .section3 .s3-wrap .gap .text-wrap > span > a {display:inline-block;text-align:center;width:100%;font-weight:500;font-size:14px;letter-spacing:-.5px;line-height:29px;color:#222;}
+
+#wrap #main div .section3 .s3-wrap .gap .video-wrap {float:left;max-width:470px;width:100%;}
+#wrap #main div .section3 .s3-wrap .gap .video-wrap > video {width:100%;}
+
+/* section4 */
+#wrap #main div .section4 {width:100%;height:auto;overflow: hidden;background:#fafafa;}
+#wrap #main div .section4 .s4-wrap {width:100%;max-width:1140px;margin:0 auto;}
+#wrap #main div .section4 .s4-wrap .gap {padding:75px 0 70px 0;}
+#wrap #main div .section4 .s4-wrap .gap > h3 {font-size:30px;font-weight:400;letter-spacing:-1px;text-align:center;color:#222;}
+#wrap #main div .section4 .s4-wrap .gap > p {font-size:16px;font-weight:400;letter-spacing:-1px;text-align:center;color:#222;margin-top:20px;}
+
+/* section5 */
+#wrap #main div .section5 {width:100%;height:auto;overflow:hidden;}
+#wrap #main div .section5 .s5-wrap {width:100%;max-width:1140px;margin:0 auto;display:block;height:100%;}
+#wrap #main div .section5 .s5-wrap .left {float:left;width:50%;height:100%;display:block;}
+#wrap #main div .section5 .s5-wrap .left .gap {margin:100px 0% 100px 28%;}
+
+/* 개별 */
+#wrap #main div .section5 .s5-wrap .left .gap .text-box {width:100%;height:90px;display:block;padding:50px 0 30px 0;}
+#wrap #main .sendmoney-wrap .section5 .s5-wrap .left .gap .text-box {padding:20px 0 20px 0;}
+#wrap #main .credit-wrap .section5 .s5-wrap .left .gap .text-box {padding:80px 0 50px 0;}
+#wrap #main .insurance-wrap .section5 .s5-wrap .left .gap .text-box {padding:45px 0 45px 0;}
+#wrap #main .pfm-wrap .section5 .s5-wrap .left .gap .text-box {padding:80px 0 50px 0;}
+#wrap #main .bill-wrap .section5 .s5-wrap .left .gap .text-box {padding:30px 0 20px 0;}
+#wrap #main .certification-wrap .section5 .s5-wrap .left .gap .text-box {padding:80px 0 50px 0;}
+#wrap #main .membership-wrap .section5 .s5-wrap .left .gap .text-box {padding:20px 0 20px 0;}
+
+#wrap #main div .section5 .s5-wrap .left .gap .text-box.addColor > h3 {color:#222;}
+#wrap #main div .section5 .s5-wrap .left .gap .text-box.addColor > h3 > span {color:#222;}
+#wrap #main div .section5 .s5-wrap .left .gap .text-box.addColor > h4 {color:#555;}
+#wrap #main div .section5 .s5-wrap .left .gap .text-box > h3 {font-size:30px;font-weight:700;letter-spacing:-1px;color:#ccc;padding-bottom:20px;margin-left:-30px;}
+#wrap #main div .section5 .s5-wrap .left .gap .text-box > h3 > span {display:inline-block;font-size:35px;font-weight:700;padding-right:5px;color:#ccc;margin-top:-10px;}
+#wrap #main div .section5 .s5-wrap .left .gap .text-box > h4 {font-size:18px;font-weight:400;letter-spacing:-1.5px;color:#ccc;line-height:30px;}
+
+#wrap #main .payment-wrap .section5 .s5-wrap .left .gap .text-box > h3 {font-size:30px;font-weight:700;letter-spacing:-1px;color:#555;padding-bottom:20px;}
+#wrap #main .payment-wrap .section5 .s5-wrap .left .gap .text-box > h3 > span {display:inline-block;font-size:35px;font-weight:700;padding-right:5px;color:#555;margin-top:-10px;}
+#wrap #main .payment-wrap .section5 .s5-wrap .left .gap .text-box > h4 {font-size:18px;font-weight:400;letter-spacing:-1px;color:#555;line-height:30px;}
+#wrap #main .certification-wrap .section5 .s5-wrap .left .gap .text-box > h3 {font-size:30px;font-weight:700;letter-spacing:-1px;color:#555;padding-bottom:20px;}
+#wrap #main .certification-wrap .section5 .s5-wrap .left .gap .text-box > h3 > span {display:inline-block;font-size:35px;font-weight:700;padding-right:5px;color:#555;margin-top:-10px;}
+#wrap #main .certification-wrap .section5 .s5-wrap .left .gap .text-box > h4 {font-size:18px;font-weight:400;letter-spacing:-1px;color:#555;line-height:30px;}
+
+#wrap #main div .section5 .s5-wrap .right {float:right;width:500px;margin:10% auto;}
+#wrap #main .sendmoney-wrap .section5 .s5-wrap .right {margin:20% auto;height:370.5px;overflow:hidden;}
+#wrap #main .investment-wrap .section5 .s5-wrap .right {margin:13% auto;}
+#wrap #main .credit-wrap .section5 .s5-wrap .right {height:492.24px;overflow:hidden;}
+#wrap #main .insurance-wrap .s5-wrap .right {height:368.133px;overflow:hidden;}
+#wrap #main .bill-wrap .s5-wrap .right {height:370.5px;overflow:hidden;}
+#wrap #main .pfm-wrap .s5-wrap .right {height:491.69px;overflow:hidden;}
+#wrap #main .membership-wrap .s5-wrap .right {height:370.3333333px;overflow:hidden;}
+
+#wrap #main div .section5 .s5-wrap .right > .img-wrap {width:342px;}
+#wrap #main div .section5 .s5-wrap .right > .img-wrap > img {width:100%;background-size:cover;}
+
+
+/* section6 */
+#wrap #main div .section6 {width:100%;height:auto;}
+#wrap #main div .section6 .s6-wrap {width:100%;max-width:1140px;margin:0 auto;border-top:1px solid #ccc;box-sizing:border-box;padding-top:100px;}
+#wrap #main div .section6 .s6-wrap h3 {z-index:3;position:relative;float:left;font-size:30px;font-weight:700;color:#000;letter-spacing:-1px;}
+#wrap #main div .section6 .s6-wrap > span {z-index:3;position:relative;float:right;display:block;width:200px;border:2px solid #000;border-radius:50px;overflow:hidden;}
+#wrap #main div .section6 .s6-wrap > span > a {display:block;font-size:20px;padding:15px 20px;font-weight:600;text-align:center;transition:all .6s;}
+#wrap #main div .section6 .s6-wrap > span > a:hover {background:hsl(52, 100%, 50%);}
+#wrap #main div .section6 .s6-wrap .icon-wrap {width:100%;}
+#wrap #main div .section6 .s6-wrap .icon-wrap > ul {width:100%;padding-top:60px;}
+#wrap #main div .section6 .s6-wrap .icon-wrap > ul > .icon {z-index:1;position:relative;float:left;display:block;width:210px;height:210px;opacity:0;}
+#wrap #main div .section6 .s6-wrap .icon-wrap > ul > .icon.iconSlide {display:none;}
+#wrap #main div .section6 .s6-wrap .icon-wrap > ul > .icon > a {display:block;width:210px;height:210px;transform:scale(1);transition:all .8s;}
+#wrap #main div .section6 .s6-wrap .icon-wrap > ul > .icon > a:hover {transform:scale(1.3);}
+#wrap #main div .section6 .s6-wrap .icon-wrap > ul > .icon > a > img {width:100%;}
+
+#wrap #main div .section6 .s6-wrap > .button-wrap {width:100%;margin-bottom:100px;}
+#wrap #main div .section6 .s6-wrap > .button-wrap > button {z-index:3;position:relative;display:block;text-align:center;padding:5px 10px;width:120px;margin:0 auto;background:none;display:block;color:#4a4a4a;}
+#wrap #main div .section6 .s6-wrap > .button-wrap > button.addBtnHide {display:none;}
+#wrap #main div .section6 .s6-wrap > .button-wrap > button > span {display:inline-block;width:20px;height:20px;padding:0 10px;overflow:hidden;}
+#wrap #main div .section6 .s6-wrap > .button-wrap > button > span > img {display:inline-block;width:140%;transform:rotate(-90deg);margin-top:-25px;}
+#wrap #main div .section6 .s6-wrap > .button-wrap > button:nth-child(2) > a > span > img {margin-top:10px;}
